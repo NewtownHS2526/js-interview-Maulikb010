@@ -13,6 +13,11 @@ function easyProblem1(passType, age) {
     // TODO: Write your code here
     // If passType is "Platinum" AND age is 16, return "can access"
     // Otherwise, return "go home"
+    if (passType === "Platinum" && age === 16) {
+        return "can access";
+    } else {
+        return "go home";
+    }
 }
 
 // Test your code:
