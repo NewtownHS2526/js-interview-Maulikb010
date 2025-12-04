@@ -13,11 +13,11 @@ function easyProblem1(patronLevel, age) {
     // TODO: Write your code here
     // If patronLevel is "Collector" AND age is 21, return "can access"
     // Otherwise, return "go home"
-    if (patronLevel === "Collector" && age === 21) {
+   if (patronLevel === "Collector" && age === 21) {
         return "can access";
     } else {
         return "go home";
-    }
+    }  
 }
 
 // Test your code:
@@ -40,9 +40,9 @@ function easyProblem2(patronLevel, age) {
     }
 }
 
-// Test your code:
-console.log("Easy 2 - Test 1:", easyProblem2("Member", 21)); // Should print: "can sign in"
+// Test your code:console.log("Easy 2 - Test 1:", easyProblem2("Member", 21)); // Should print: "can sign in"
 console.log("Easy 2 - Test 2:", easyProblem2("Collector", 21)); // Should print: "go home"
+
 
 // ============================================
 // MEDIUM PROBLEM: Multiple conditions with if-else if-else

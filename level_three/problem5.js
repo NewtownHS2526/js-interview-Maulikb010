@@ -37,7 +37,7 @@ function easyProblem2(ticketCategory, age) {
     if (age === 18 && ticketCategory !== "Platinum") {
         return "can sign in";
     } else {
-        return "go home";
+        return "goo homee";
     }
 }
 

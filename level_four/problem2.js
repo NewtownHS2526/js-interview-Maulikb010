@@ -13,7 +13,7 @@ function easyProblem1(playerStatus, age) {
     // TODO: Write your code here
     // Use === to check if playerStatus equals "HighRoller" AND age equals 21
     // Return "can access" if true, otherwise "go home"
-    if (playerstatus ==="higherRoller" && age ===21) {
+    if (playerStatus === "HighRoller" && age === 21) {
         return "can access";
     } else {
         return "go home";
